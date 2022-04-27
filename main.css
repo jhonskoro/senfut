@@ -84,14 +84,14 @@ transition: color 0;
 .foto-inicio-reemplazo{
     width: 100%;
 }   
-.fotoiniciocontexto{
-    display:flex;
-    flex-direction: column;
-}
+
+
+
 .foto-inicio-contexto__texto1{
    color: aliceblue;
-   position: sticky;
-   top: 50px;
+   font-size: 300%;
+   text-align: center;
+   
 }
 
 .frase3{
@@ -109,7 +109,7 @@ transition: color 0;
     font-size: 100%;
 }
 .equipo-inicio{
-    width: 100%;
+    height: 100%;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
