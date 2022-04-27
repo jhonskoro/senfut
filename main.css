@@ -120,35 +120,24 @@ transition: color 0;
   
 .equipo-inicio__eddie{
     
-    width: 66.6%;
+    width: 40%;
     display: flex;
     border-block-start-color:black;
     border-radius: 10px;
-    justify-content: S
-}
-.equipo-inicio__paul2{
-    display: flex;
-
+    
 }
 .equipo-inicio__paul{
-    width: 66.6%;
-   
+    width: 40%;
+    display: flex;
     border-block-start-color:black;
     border-radius: 10px;
-}
-.equipo-inicio__gaz3{
-    display: flex;
- 
 }
 .equipo-inicio__gaz{
-  
-    width: 66.6%;
-   
+    width: 40%;
+    display: flex;
     border-block-start-color:black;
     border-radius: 10px;
-
 }
-
 
 /*Estilo Frase intermedia Pagina*/
 
