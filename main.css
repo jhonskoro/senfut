@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contactanos-inicio{
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
+}
+.header{
+    background-color: #000000;
+    width: 100px;
+}
+.header div{
+    height: 100px;
+}
+.boton.inicio-centrar{
+    display: flex;
+    justify-content: center
+    
+    ;
+}
+.button-icono{
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.button-icono__imagen{
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    border: #000;
+}
+
+/*Estilos de la barra de navegacion*/
+
+.navegador1 ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    text-decoration-line: none;
+    text-align: center;
+    
+    color: #ffffff;
+    font-family: 'Akshar', sans-serif;
+        
+}
+
+.navegador1 ul li
+{
+    margin:2px;
+    list-style: none;
+    width: 100%;
+   border-radius: 10%;
+    background-color: #FFD36E;
+    border: #000000 2px;
+    color: #000000;
+    
+   
+}   
+.navegador1 ul li a{
+
+text-decoration-line: none ;
+text-decoration-color: #000000;
+color:#000000;
+transition: color 0;
+}
+
+
+.navegador1 ul li a:hover{
+    color: #ffffff;
+  }
+ 
+/*Foto principal*/
+
+
+/*Estilos section Equipo*/
+
+.foto-inicio-reemplazo{
+    width: 100%;
+}   
+.fotoiniciocontexto{
+    display:flex;
+    flex-direction: column;
+}
+.foto-inicio-contexto__texto1{
+   color: aliceblue;
+   position: sticky;
+   top: 50px;
+}
+
+.frase3{
+    background-color: #000000;
+    width: 100%;
+}
+
+
+.frase3-texto {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    text-align: center;
+}
+.frase3-texto__resaltar{
+    font-size: 100%;
+}
+.equipo-inicio{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+  
+.equipo-inicio__eddie{
+    
+    width: 66.6%;
+    display: flex;
+    border-block-start-color:black;
+    border-radius: 10px;
+    justify-content: S
+}
+.equipo-inicio__paul2{
+    display: flex;
+
+}
+.equipo-inicio__paul{
+    width: 66.6%;
+   
+    border-block-start-color:black;
+    border-radius: 10px;
+}
+.equipo-inicio__gaz3{
+    display: flex;
+ 
+}
+.equipo-inicio__gaz{
+  
+    width: 66.6%;
+   
+    border-block-start-color:black;
+    border-radius: 10px;
+
+}
+
+
+/*Estilo Frase intermedia Pagina*/
+
+.frase-maximos-exponentes{
+    height: 100%;
+    background-color: #ffffff;
+
+}
+.equipo-inicio__texto{
+    font-size: 100%;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    top:15px;
+    font-style: oblique;
+    
+}
+
+
+/*Estilo fotos final de pagina*/
+
+
+
+
+.contenedor_frase-1234{
+    padding: 20px;
+    width: 100%;
+ 
+}
+.fotos-final__titulo{
+
+        background-color: #ffffff;
+        color: #000000;
+       font-size: 100%;
+       
+       text-align: center;
+       
+}
+
+
+   
+
+.fotos-final1234{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.fotos-final1{
+    width: 60%;
+    border: solid 5px #ffffff;
+}
+.fotos-final2{
+    width: 60%;
+    border: solid 5px #ffffff;
+}
+.fotos-final3{
+    width: 60%;
+    border: solid 5px #ffffff;
+}
+.fotos-final4{
+    width: 60%;
+    border: solid 5px #ffffff;
+}
+.fotos-final1-tex, .fotos-final2-tex, .fotos-final3-tex, .fotos-final4-tex {
+    color: #F6F4E6;
+}
+
+@media screen and (min-height:1024px)
+{
+
+    .fotos-final1234{
+        display:grid;
+        grid-template-areas: 
+       
+        "titulo titulo"
+        "foto1 foto1tex"
+        "foto2tex foto2"
+        "foto3 foto3tex"
+        "foto4tex foto4"
+      
+        ;
+    }
+    .fotos-final__titulo{
+    display: grid;
+    grid-area: titulo;
+ }
+
+.fotos-final1{
+    grid-area: foto1;
+    height: 60%;
+    border: solid 5px #ffffff;
+    transition: height 1s;
+}
+
+.fotos-final1:hover{
+    height: 70%;}
+   
+   
+.fotos-final1-tex{
+        grid-area: foto1tex;
+        color: #ffffff;
+}  
+    
+
+ }
+
+.fotos-final2{
+    grid-area: foto2;
+    height: 60%;
+    border: solid 5px #ffffff;
+    transition: height 1s;
+}
+.fotos-final2:hover{
+    height: 70%;
+}
+
+.fotos-final2-tex{
+    grid-area: foto2tex;
+    color: #ffffff;
+}.fotos-final3{
+    grid-area: foto3;
+    height: 60%;
+    border: solid 5px #ffffff;
+    transition: height 1s;
+}
+.fotos-final3:hover{
+    height: 70%;
+}
+.fotos-final3-tex{
+    grid-area: foto3tex;
+    color: #ffffff;
+
+}
+
+.fotos-final4{
+    grid-area: foto4;
+    height: 60%;
+    border: solid 5px #ffffff;
+    transition: height 1s; 
+}
+.fotos-final4:hover{
+    height:70%;
+}
+.fotos-final4-tex{
+    grid-area: foto4tex;
+    color: #ffffff;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo Recetas*/
+
+
+.body-recetas{
+        color: #ffffff;
+    }
+
+
+.titulo-recetas h3{
+    font-size: 60px;
+
+}
+.titulo-recetas p{
+    font-size: 35px;
+}
+
+
+
+
+    
+.main-nuestro-equipo{
+    background-color:#F6F4E6;
+
+}
+/*Estilos Contactanos*/
+.contactanos-inicio{
+    display: flexbox;
+
+    align-items: center;
+    text-align:end;
+}
+
+/*Estilos footer*/
+footer{
+    background-color: #FFD36E;
+    color:#000000;
+}
+
+
+
+/*Estilos HTML "Recetas*/
+
+.titulo-recetas p{
+text-align: center;
+font-size: 50px;
+position: relative;
+top: 35px;
+
+
+}
+
+.videos-recetas{
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.paulloco{
+    color: #000000;
+     max-width: 500px;
+    
+}
+.paulloco p{
+    max-width: 50%;
+    color: #F6F4E6;
+}
+
+.body-planes{
+    background-color: #000000;
+}
+
+
+/*Estilo HTML "PLANES"*/
+
+
+.planes-lista-padre{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 3px black;
+    height: 250px;;
+
+
+}
+.planes-lista{
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+.plan-semanal-gratuito{
+    background-color: #E4D1B9;
+}
+.plan-mensual{
+    background-color: #BE8C63;
+}
+.plan-6-meses{
+    background-color: #A97155;
+}
+
+
+.segui-los-pasos{
+    height: 500px;
+    background-color: #000000;
+    color: #F6F4E6;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.segui-los-pasos p{
+    position: relative;
+    top: 100px;
+}
+.div-tabla{
+    background-color: #F6F4E6;
+}
+.div-plan-6-meses{
+   
+    color: #F6F4E6;
+    font-style: oblique;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center
+    
+    
+
+    
+}
+.div-plan-6-meses h5{
+    text-align: center;
+    font-size: 80px;
+   
+    
+}
+
+.h5-plan-seis-meses{
+    position: relative;
+    bottom: 180px;
+
+}
+.p-plan-seis-meses{
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+/*Estilos HTML "LAS RECETAS DE GAZ"*/
+
+.img-receta-gaz {
+    height: 100%;
+}                      
+                            
+
+.img-receta-gaz2{
+    height: 100%;
+}
+
+
+
+
