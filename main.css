@@ -83,12 +83,17 @@ transition: color 0;
     width: 100%;
 }   
 
-
+.fotoiniciocontexto{
+    width: 100%;
+}
 
 .foto-inicio-contexto__texto1{
    color: aliceblue;
-   font-size: 300%;
+   font-size: 60px;
    text-align: center;
+   position: absolute 10px;
+   padding-top: 30px ;
+   padding-bottom: 30px;
    
 }
 
@@ -100,14 +105,16 @@ transition: color 0;
 
 .frase3-texto {
     color: rgb(255, 255, 255);
-    font-size: 100%;
+    font-size: 40px;
     text-align: center;
+    padding: 50px;
+    font-style: oblique;
 }
 .frase3-texto__resaltar{
     font-size: 100%;
 }
 .equipo-inicio{
-    height: 120vh;
+    height: 100%;
     background-color: #ffffff;
     
    
@@ -124,18 +131,15 @@ transition: color 0;
     width: 40%;
     border-block-start-color:black;
     border-radius: 10px;
-    
-    
+       
 }
 .equipo-inicio__paul{
     width: 40%;
-    
     border-block-start-color:black;
     border-radius: 10px;
 }
 .equipo-inicio__gaz{
     width: 40%;
-    
     border-block-start-color:black;
     border-radius: 10px;
 }
@@ -161,47 +165,55 @@ transition: color 0;
 
 
 
-.frase-fotos1234{
-    padding: 20px;
-    width: 100%;
- 
-}
+
 .fotos-final__titulo{
 
         background-color: #ffffff;
         color: #000000;
-       font-size: 100%;
+        font-size: 100%;
+        
+        text-align: center;
+        
     
 }
 
 
-   
-
-.fotos-final1234{
-    
+.fotos-final{
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: space-between;
-}
+    
+}   
+
+
+
 .fotos-final1{
-    width: 40%;
+    
     border: solid 5px #ffffff;
+    padding: 20%;
 }
 .fotos-final2{
-    width: 40%;
     border: solid 5px #ffffff;
+    padding: 20%;
 }
 .fotos-final3{
-    width: 40%;
     border: solid 5px #ffffff;
+    padding: 20%;
 }
 .fotos-final4{
-    width: 40%;
     border: solid 5px #ffffff;
+    padding: 20%;
 }
 
 
+@media screen and (max-height: "700px")
+{
+    .equipo-inicio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+       }
+}
 
 
 
