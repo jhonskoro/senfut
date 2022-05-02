@@ -298,8 +298,6 @@ footer{
 .titulo-recetas p{
 text-align: center;
 font-size: 50px;
-position: relative;
-top: 35px;
 
 
 }
@@ -416,6 +414,15 @@ top: 35px;
     height: 100%;
 }
 
+.body-recetas{
+    background-color: #000000;
+}
 
 
 
+/*Estilos html recetas*/
+
+
+.card-title, .card-text{
+    color: #000000;
+}
