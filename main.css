@@ -426,3 +426,6 @@ font-size: 50px;
 .card-title, .card-text{
     color: #000000;
 }
+.conteiner{
+    padding: 10px !important;
+}
