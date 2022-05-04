@@ -444,3 +444,70 @@ font-size: 50px;
 .conteiner{
     padding: 10px !important;
 }
+
+
+
+
+/*Estilos de HTML "NUESTRO EQUIPO"*/
+
+.nuestro-equipo-gaz{
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+.carousel1{
+    width: 100%;
+    display: flex;
+    
+    
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
+
+
+.h3-eddie, .h3-paul, .h3-gaz{
+    font-size: 4em;
+    color: #ffffff;
+    text-align: center;
+}
+.parrafo{
+    color: #ffffff;
+}
+.h6-paul, .h6-eddie{
+    color: #ffffff;
+}
+
+.nuestro-equipo-paul{
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    text-align: center;
+    color: #ffffff;
+}
+.nuestro-equipo-eddie{
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (min-height:"800px"){
+
+.carousel1{
+width: 50% !important;
+}
+
+
+
+
+
+
+
+}
