@@ -1,0 +1,37 @@
+.navegador1{ 
+    
+    ul{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 4px;
+    text-decoration-line: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Akshar', sans-serif;
+    padding: 0;
+    
+    li{
+        margin:2px;
+        list-style: none;
+        width: 100%;
+        border-radius: 10%;
+        background-color: #FFD36E;
+        border: #000000 2px;
+        color: #000000;
+       
+       
+    }  
+   
+}
+}
+a{
+
+    text-decoration-line: none;
+    text-decoration-color: #000000;
+    color:#000000;
+    transition: color 0;
+    &:hover{
+        color: #ffffff;
+    }
+    
+}

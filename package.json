@@ -1,0 +1,25 @@
+{
+  "name": "senfut",
+  "version": "1.0.0",
+  "description": "Repositorio de desarrollo Web de Senfut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/sassprincipal.scss css/pruebacss.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonskoro/senfut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonskoro/senfut/issues"
+  },
+  "homepage": "https://github.com/jhonskoro/senfut#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

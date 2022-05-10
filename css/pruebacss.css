@@ -1,0 +1,209 @@
+.navegador1 ul {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 4px;
+  text-decoration-line: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Akshar', sans-serif;
+  padding: 0; }
+  .navegador1 ul li {
+    margin: 2px;
+    list-style: none;
+    width: 100%;
+    border-radius: 10%;
+    background-color: #FFD36E;
+    border: #000000 2px;
+    color: #000000; }
+
+a {
+  text-decoration-line: none;
+  text-decoration-color: #000000;
+  color: #000000;
+  transition: color 0; }
+  a:hover {
+    color: #ffffff; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+.navbar {
+  background-color: black !important; }
+
+.header {
+  background-color: black; }
+
+.header div {
+  height: 100px; }
+
+.fotoiniciocontexto {
+  position: relative; }
+  .fotoiniciocontexto img {
+    width: 100%;
+    height: 100%; }
+  .fotoiniciocontexto h3 {
+    color: black;
+    font-size: 4em;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    height: 40vh; }
+
+.frase2 {
+  background-color: black;
+  height: 82vh; }
+  .frase2 p {
+    color: #ffffff;
+    font-size: 3em;
+    height: 40vh;
+    text-align: center; }
+
+.equipo-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px; }
+
+@media screen and (min-width: 700px) {
+  .equipo-inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px; }
+    .equipo-inicio img {
+      width: 220px;
+      border-block-start-color: black;
+      border-radius: 10px; } }
+
+/*Estilo Frase intermedia Pagina*/
+.frase-maximos-exponentes {
+  background-color: #ffffff; }
+
+.maximos_exponentes-frase {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  align-items: center; }
+  .maximos_exponentes-frase h4 {
+    font-size: 3em;
+    color: #e2e2e2;
+    text-align: center;
+    font-style: oblique;
+    display: block; }
+
+/*Estilo Recetas*/
+.titulo-recetas p {
+  font-size: 35px; }
+
+.main-nuestro-equipo {
+  background-color: #ffffff; }
+
+/*Estilos footer*/
+footer {
+  background-color: #FFD36E;
+  color: #000000; }
+  footer ul {
+    list-style-type: none; }
+
+/*Estilos HTML "Recetas*/
+.titulo-recetas p {
+  text-align: center;
+  font-size: 50px; }
+
+.videos-recetas {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 150vh;
+  padding: 20px; }
+
+.paul__presentacion {
+  text-align: center;
+  width: 70%; }
+
+.body-planes {
+  background-color: #000000; }
+
+/*Estilos html recetas*/
+.card-title, .card-text {
+  color: #000000; }
+
+.conteiner {
+  padding: 10px !important; }
+
+/*Estilos de HTML "NUESTRO EQUIPO"*/
+.equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: centers;
+  text-align: center;
+  color: #ffffff; }
+  .equipo h2 {
+    font-size: 4em;
+    color: #ffffff;
+    text-align: center; }
+  .equipo h6 {
+    color: #ffffff; }
+
+.carousel1 {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
+.carousel-inner {
+  display: flex;
+  align-items: center; }
+
+.parrafo {
+  color: #ffffff; }
+
+@media screen and (min-width: 800px) {
+  .carousel1 {
+    width: 50% !important; }
+    .carousel1 .carousel-inner {
+      display: flex;
+      align-items: center; }
+  /*estilos HTML RECETAS*/
+  .video-yutu {
+    width: 70%; }
+  .hover01 column {
+    width: 100%; }
+  .tienda-productos {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
+  .hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  .productos-veganos {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px; }
+  .lista__cestaro {
+    color: #ffffff;
+    text-align: center; }
+  .titulo__planes {
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center; }
+  .plan-gratuito {
+    background-color: #e2e2e2;
+    color: #e2e2e2; } }
